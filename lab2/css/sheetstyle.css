@@ -1,0 +1,102 @@
+A {
+    display: block;
+    text-decoration: none;
+}
+A:visited, A:link {
+    color: darkred;
+    font-family: Verdana, Arial, Helvetica;
+    font-size: 12pt;
+    font-style: normal;
+}
+A:hover {
+    color: rosybrown;
+    font-family: Verdana, Arial, Helvetica;
+    font-size: 12pt;
+    font-style: italic;
+    text-decoration: underline;
+}
+H1 {
+    color: red;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, Sans-Serif;
+    text-align: center;
+}
+OL {
+    color: green;
+    font-size: 12pt;
+    font-family: Serif, Sans-serif, Arial;
+    list-style-position: inside;
+    background-color: lightgray;
+}
+P {
+    color: darkblue;
+    font-size: 16pt;
+    font-family: Sans-Serif, Helvetica, Arial;
+    text-align: justify;
+    text-indent: 40px;
+}
+TABLE {
+    background-color: lightgray;
+    width: 90%;
+    text-align: center;
+    empty-cells: hide;
+    border-spacing: 0px;
+    /*border-collapse: collapse;*/
+}
+TD {
+    color: blue;
+    font-weight: normal;
+    font-size: 12pt;
+    font-family: Arial;
+}
+TD, TH {
+    border: 1px solid green;
+}
+TH {
+    color: red;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: Times Roman;
+}
+UL {
+    color: lightgreen;
+    font-size: 12pt;
+    font-family: Serif, Sans-serif, Arial;
+    list-style-position: outside;
+    background: url(../images/leo.png) no-repeat left;
+}
+#content {
+    width: 70%;
+    min-height: 500px;
+    float: left;
+}
+#hmenu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#hmenu li {
+    margin: 5px 30px;
+    width: auto;
+}
+#leftmenu {
+    width: 20%;
+    min-height: 500px;
+    float: left;
+}
+#right {
+    width: 10%;
+    min-height: 500px;
+    float: left;
+}
+#top {
+    width: 940px;
+    height: 279px;
+}
+#wrapper {
+    width: 940px;
+    margin: 20px auto;
+    background-color: #e8f8ff;
+}
